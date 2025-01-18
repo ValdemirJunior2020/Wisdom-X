@@ -1,0 +1,24 @@
+/* Footer styles */
+.footer {
+    margin-top: auto; /* Ensures the footer is pushed to the bottom if content is less */
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: fixed; /* Keeps it at the bottom of the screen */
+    width: 100%; /* Spans the full width of the viewport */
+    bottom: 0; /* Fixes it to the bottom of the viewport */
+    left: 0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #007bff; /* Adjust link color */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

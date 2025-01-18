@@ -1,0 +1,20 @@
+.flipping-coin {
+    width: 200px; /* Fixed size */
+    height: auto; /* Maintain aspect ratio */
+    animation: flipInPlace 3s ease-in-out infinite; /* Flip animation */
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  @keyframes flipInPlace {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
