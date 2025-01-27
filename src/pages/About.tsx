@@ -19,6 +19,23 @@ const About: React.FC = () => {
           <li>Fund groundbreaking research into stroke treatment.</li>
         </ul>
       </section>
+      <section className="text-center mt-8">
+        <h3 className="text-2xl font-bold mb-3">Meet the Developer</h3>
+        <p className="text-lg mb-6">
+          Wisdom X Stroke Foundation was founded by a software developer who
+          survived a massive stroke on January 20, 2020, caused by COVID-19.
+          Despite doctors predicting he wouldn’t survive, he defied the odds and
+          turned his life around. His journey from being a stroke survivor to a
+          software developer is a story of resilience, faith, and determination.
+        </p>
+        <p className="text-lg">
+          Now, he is dedicated to helping other stroke survivors by raising
+          funds and providing the support they need to rebuild their lives. His
+          mission is to give hope to those facing the same challenges he once
+          did and to prove that life after a stroke is not just possible, but
+          can be extraordinary.
+        </p>
+      </section>
     </main>
   );
 };
